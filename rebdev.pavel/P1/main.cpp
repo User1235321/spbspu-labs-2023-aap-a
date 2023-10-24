@@ -23,7 +23,7 @@ int main()
     std::cin >> arrOfElements[2];
   }
   
-  if(std::cin.good())
+  if (std::cin.good())
   { 
     std::cout << counter << '\n';
   }
