@@ -10,7 +10,7 @@ int main()
     if (std::cin.fail() || (arrOfElements[i] == 0))
     {
       std::cout << "0\n";
-      return 1;
+      return 0;
     }
   }
 
@@ -26,11 +26,10 @@ int main()
   if(std::cin.good())
   { 
     std::cout << counter << '\n';
-    return 0;
   }
   else
   {
     std::cout << "0\n";
-    return 1;
   }
+  return 0;
 }
